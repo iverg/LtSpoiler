@@ -1,0 +1,19 @@
+# Space-separated list of preferred languages
+export PREFERRED_LANGUAGES='en'
+
+# OpenAI settings, for GenAI summarization. 
+export OPENAI_ORGANIZATION=''
+export OPENAI_PROJECT=''
+export OPENAI_API_KEY=''
+
+# You can experiment with different prompts. Since prompts can be stored in separate files,
+# flipping a summarizing 'persona' is easy.
+export PROMPT_YT=`cat analyst.prompt`
+
+# Telegram settings. Follow this tutorial https://core.telegram.org/bots/tutorial to
+# obtain your bot it.
+export TELEGRAM_BOT_ID=''
+
+# Discord settings. Follow https://discord.com/developers/docs/quick-start/getting-started
+# to obtain your API key.
+export DISCORD_BOT_ID=''
