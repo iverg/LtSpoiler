@@ -10,14 +10,12 @@ python3 -m venv .venv
 
 Install depdendencies
 ```
-. .venv/bin/activate
-python3 -m pip -r requirements.txt
+. .venv/bin/activate; python3 -m pip install -r requirements.txt
 ```
 
 Configure parameters - copy settings template
 ```
 cp settings.template .settings
-
 ```
 and set actual values in your `.settings` file.
 
