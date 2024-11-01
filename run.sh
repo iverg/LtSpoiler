@@ -6,5 +6,5 @@ if ! [ -r .settings ]; then
     exit -1
 fi
 
-. .settings
+. ./.settings
 python3 ./LtSpoiler.py "$@"
