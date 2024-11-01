@@ -1,5 +1,6 @@
 # LtSpoiler
-YouTube video summarization bot
+Somebody sent you or to a group chat a link to a YouTube video, but you are not sure if it is worth watching?
+Leutenant Spoiler to the rescue! It will reply to the message with a summary of the video content (yes, there will be spoilers).
 
 ## Installation
 
